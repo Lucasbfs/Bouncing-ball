@@ -37,8 +37,8 @@ ball2x = canvas.height / 1.5;
 ball2y = canvas.height / 1.5;
 
 //random ball starting speed (50 and 100 px per sec)
-xvel = Math.floor(Math.random() * 200 + 25) /  FPS; //math.floor to keep it as an inteer and not decimal, 101 is because 1 is not count
-yvel = Math.floor(Math.random() * 200 + 25) /  FPS; 
+xvel = Math.floor(Math.random() * 300 + 20) /  FPS; //math.floor to keep it as an inteer and not decimal, 101 is because 1 is not count
+yvel = Math.floor(Math.random() * 300 + 20) /  FPS; 
 
 
 //random second ball starting speed 
